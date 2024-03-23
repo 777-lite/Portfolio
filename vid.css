@@ -1,0 +1,44 @@
+html,body{
+    background-color: #6d6565;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}  
+
+.vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vw;
+}
+
+#overview2{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #ffffff;
+}
+
+#cut{
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    color: white;
+    font-size: .8vw;   
+    background: rgba(255, 88, 88, 0.671);   
+    border: solid white .1vw;  
+    height: 2.5vw;
+    width: 2.5vw;
+    transform: translate(92vw,-45.2vw);
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+#cut:hover{
+    transition: .5s ease;
+    opacity: 1;
+    background: rgb(11, 11, 53);
+}

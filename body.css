@@ -1,0 +1,406 @@
+@import url(https://db.onlinewebfonts.com/c/0201813274259c3d4f78760d19270bab?family=DIN+Next+LT+W04+Medium); 
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@800&display=swap');
+
+html,body{
+    background-color: #f7efea;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}       
+
+.cutscene1{
+    width: auto;
+    height: 30vw;
+}
+
+.replay{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#replay{
+    object-fit: cover;
+    width: 100vw;
+    transform: translate(0%,-26vw);
+}
+
+.overlay1{
+    display: flex;
+    justify-content: center;
+    font-family: "DIN Next LT W04 Medium"; 
+    color: rgb(255, 255, 255);
+}
+
+.pic{   
+    height: 30vw;
+}
+
+#text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -240%);
+    font-size: 7.5vw;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+    transform: translate(1%, -30vw);
+    letter-spacing: 6px;
+    font-size: .6vw;
+}
+
+.overlay2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DIN Next LT W04 Medium"; 
+    color: rgb(255, 255, 255);
+    height: 2.5vw;
+    width: 7.5vw;
+    transform: translate(46.5vw, -20vw);
+    border: solid rgb(255, 255, 255) .1vw;
+}
+
+#text3{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 2vw;
+    width:7vw;
+    font-size: .7vw;
+    letter-spacing: .2rem;  
+    background-color: rgb(255, 88, 88);
+}
+
+
+#text3:hover {
+    background-color: rgb(2, 12, 46);
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vw;    
+    margin: 0%;
+    color: #f7efea;
+    font-family: 'REM', sans-serif;
+    letter-spacing: 5vw;
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: rgb(216, 216, 216);   
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.latest1{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    max-height: 40vh;       
+    padding-left: 20vw;     
+    padding-right: 20vw;   
+    transform: translate(0%, -22vw);    
+}   
+
+
+#click1{
+    color: rgb(255, 88, 88);
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    transform: translate(-20%, -37.2vw);    
+}
+
+red{
+    color: rgb(255, 88, 88);    
+}
+
+.click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(70vw,-44vw);
+    width: 10vw;
+}
+
+#click2{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: .7vw;    
+    letter-spacing: -1px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+#click3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: .7vw;    
+    transform: translate(50%); 
+    transition: .4s ease-out;       
+}
+
+.click:hover #click3{
+    transition: .4 ease-out;
+    transform: translate(150%);
+}
+
+#wd1{
+    font-family: "DIN Next LT W04 Medium"; 
+    display: flex;
+    transform: translate(73.6%,-30vw);
+    font-size: .8vw;
+    letter-spacing: 1px;
+    color: rgb(255, 88, 88);;
+}
+
+#wd2{
+    font-family: "DIN Next LT W04 Medium"; 
+    display: flex;
+    transform: translate(54.5%,-31vw);
+    font-size: .8vw;
+    letter-spacing: 1px;
+    color: rgb(255, 88, 88);;
+}
+
+#wd3{
+    font-family: "DIN Next LT W04 Medium"; 
+    display: flex;
+    transform: translate(34.9%,-32vw);
+    font-size: .8vw;
+    letter-spacing: 1px;
+    color: rgb(255, 88, 88);
+}
+
+#wd4{
+    transform: translate(41%,-31vw);
+    font-size: .9vw;
+}
+
+#wd5{
+    transform: translate(20%,-32vw);
+    font-size: .9vw;
+}
+
+#wd6{   
+    transform: translate(62%,-33vw);
+    font-size: .9vw;
+}
+
+
+.line{
+    font-family: "DIN Next LT W04 Medium"; 
+    color: rgb(63, 63, 63);
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 6vw;
+    transform: translate(-20%, -48vw);
+}
+
+.viewch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1vw;
+    background-color:rgb(255, 88, 88);
+    width: 15vw;
+    height: 3vw;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.5vw;
+    height: 3.5vw;
+    transform: translate(110%, -48vw);
+    border: solid rgb(83, 83, 83) .1vw;
+}
+
+.viewch:hover{
+    background-color: rgb(2, 12, 46);
+}
+
+
+.free{
+    color: #2b2a38;
+    transform: translate(0,1vw);
+    height: 30vw;
+    width: 100%;
+}
+
+#lace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    transform: translate(-5%,1vw);
+    font-family: 'Anton', sans-serif;
+}
+
+.headline{
+    display: flex;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1vw;
+}
+
+#head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-18%,2vw);
+}
+
+#black{
+    color: #272729;
+}
+
+.des{
+    display: flex;
+    font-family: "DIN Next LT W04 Medium"; 
+    color: rgb(110, 110, 110) ;
+}
+
+#about1{
+    width: 18vw;
+    font-size: .8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(150%,4vw);
+
+}
+
+#overview{
+    transform: translate(17.5vw,0vw);
+    width:36vw;
+    height: 20vw;
+}
+
+#over{
+    display: flex;
+    justify-content: right;
+    padding-right: 1vw;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: rgb(255, 88, 88);
+    color: white;
+    font-size: .8vw;
+    width: 8vw;
+    height: 1.3vw;
+    transform: translate(530%, -20vw);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    
+}
+
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: rgb(255, 88, 88);
+    color: white;
+    font-size: .8vw ;
+    width: 12vw;
+    height: 2.4vw; 
+    
+}   
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5vw;
+    height: 2.9vw;
+    border: solid rgb(83, 83, 83) .1vw;
+    transform: translate(245%,-6vw);
+    z-index: 1;
+}
+
+#service:hover{
+    background-color: rgb(2, 12, 46);
+}
+
+#pause{
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    color: white;
+    font-size: .7vw;
+    background: rgba(255, 88, 88, 0.671);     
+    border: solid white .1vw;  
+    height: 2.5vw;
+    width: 2.5vw;
+    transition: .5s ease;
+    transform: translate(16vw,-11vw);
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    transform: translate(50vw,-10vw);
+    width: 35vw;
+    height: 19.6vw; 
+}
+
+.play1{
+    display: flex;
+    align-items: center;
+    transform: translate(-.5vw,0vw);
+    width: 35.5vw;
+    height: 20vw;
+}
+
+.play2{
+    width: 35vw;
+    height: 20vw;
+    transform: translate(-17.5vw,0vw);
+}
+
+.play2:hover #pause{
+    transition: .5s ease;
+    opacity: 1;
+    background: rgb(11, 11, 53);
+}
+
+#tri{
+    color: #f7efea;
+    font-size: 4vw;
+    transform: translate(-1%,-16.55vw);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+ 
