@@ -222,7 +222,7 @@ red{
     font-size: 6vw;
     transform: translate(-20%, -48vw);
     -webkit-text-stroke-width: .1rem;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.575);   
+    -webkit-text-stroke-color: rgb(0, 0, 0);   
 }
 
 .viewch{
@@ -245,7 +245,7 @@ red{
     width: 15.5vw;
     height: 3.5vw;
     transform: translate(110%, -48vw);
-    border: solid rgb(83, 83, 83) .1vw;
+    border: solid rgb(0, 0, 0) .1vw;
 }
 
 .viewch:hover{
