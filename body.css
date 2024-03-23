@@ -221,6 +221,7 @@ red{
     letter-spacing: 1px;
     font-size: 6vw;
     transform: translate(-20%, -48vw);
+    text-shadow: .2vw;
 }
 
 .viewch{
