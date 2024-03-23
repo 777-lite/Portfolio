@@ -221,7 +221,8 @@ red{
     letter-spacing: 1px;
     font-size: 6vw;
     transform: translate(-20%, -48vw);
-    text-shadow: .2vw;
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.575);   
 }
 
 .viewch{
