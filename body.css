@@ -32,8 +32,8 @@ html,body{
 .overlay1{
     display: flex;
     justify-content: center;
-    font-family: "DIN Next LT W04 Medium"; 
     color: rgb(255, 255, 255);
+    font-family: "DIN Next LT W04 Medium"; 
 }
 
 .pic{   
@@ -299,7 +299,6 @@ red{
     justify-content: center;
     align-items: center;
     transform: translate(150%,4vw);
-
 }
 
 #overview{
